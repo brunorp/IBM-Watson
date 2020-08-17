@@ -1,0 +1,80 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    color: var(--color-text-in-primary);
+    font: 300 2.0rem Archivo;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .form{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: -100px;
+ }
+ 
+ .form > .formItem{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .form > .formItem:first-child {
+     margin-right: 24px;
+ }
+ 
+ .form > .formItem > label{
+     margin-bottom: 5px;
+ }
+ 
+ .form > .formItem > textarea{
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     resize: none;
+ }
+ 
+.buttonSubmit {
+     width: 30rem;
+     height: 10.4rem;
+     border: 0;
+     border-radius: 0.8rem;
+     font: 700 2.0rem Archivo;
+     
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+ 
+     text-decoration: none;
+     color: var(--color-button-text);
+     background-color: var(--color-secondary);
+     
+     cursor: pointer;
+ 
+     transition: background-color 0.2s;
+ }
+ 
+.buttonSubmit:hover {
+     background-color: var(--color-secondary-dark)
+ }
+
+.result > label {
+        font: 300 3.0rem Poppins;
+        color: #000;
+        margin-bottom: 20px;
+ }
+
+ .result > label > p{
+    font: 300 3.0rem Poppins;
+    color: #000
+}
+
+.result {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
