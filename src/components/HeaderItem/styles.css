@@ -1,0 +1,17 @@
+.headerContainer{
+    color: var(--color-text-in-primary);
+}
+
+header {
+    height: 40vh;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h2 {
+    font-weight: 500;
+    font-size: 8rem;
+    line-height: 4.6rem;
+}
